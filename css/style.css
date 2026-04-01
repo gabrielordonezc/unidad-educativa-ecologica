@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --bs-tertiary: #797E88;
+    --bs-tertiary: 	#797E88;
     --institucion-primary: #1E183A;
-    --institucion-secondary: #E71D2C;
-    --institucion-tertiary: #797E88;
+    --institucion-secondary: #93C572;
+    --institucion-tertiary: #FFFAFA;
 }
 
 .back-to-top {
@@ -201,7 +201,7 @@
     justify-content: center;
     font-size: 22px;
     color: var(--bs-dark);
-    background: var(--bs-primary);
+    background: #4169E1;
 }
 
 .page-header {
