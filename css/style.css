@@ -201,7 +201,7 @@
     justify-content: center;
     font-size: 22px;
     color: var(--bs-dark);
-    background: #ffff00;
+    background: var(--bs-primary);
 }
 
 .page-header {
