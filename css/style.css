@@ -361,12 +361,12 @@
 }
 
 .about-img::before,
-.about-img::after {
+.about-img::after { /*
     position: absolute;
     content: "";
     width: 33%;
     height: 90px;
-    background: var(--bs-white);
+    background: var(--bs-white); */
 }
 
 .about-img::before {
