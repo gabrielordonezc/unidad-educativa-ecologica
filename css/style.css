@@ -175,7 +175,7 @@
 /*** Header Carousel ***/
 .header-carousel {
     position: relative;
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -235,7 +235,7 @@
 } */
 
 .page-header {
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -417,7 +417,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -475,7 +475,7 @@
 /*** Banner ***/
 .banner .banner-inner {
     position: relative;
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -516,7 +516,7 @@
 /*** Donate ***/
 .donate .donate-text {
     position: relative;
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -593,7 +593,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../img/bg.jpg) center center no-repeat;
+    background: url(../img/bg2.jpg) center center no-repeat;
     background-size: cover;
 }
 
