@@ -75,19 +75,38 @@
 
     // Header carousel
     $(".header-carousel").owlCarousel({
-        animateOut: 'rotateOutUpRight',
-        animateIn: 'rotateInDownLeft',
+        /*animateOut: 'rotateOutUpRight',
+        animateIn: 'rotateInDownLeft', */
+        animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         items: 1,
         autoplay: true,
         smartSpeed: 1000,
-        dots: false,
+        dots: true, //para activar puntos
         loop: true,
-        nav : true,
+        nav : false, //para desactivar flechas
         navText : [
             '<i class="bi bi-chevron-left"></i>',
             '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
+        ],
+            // Para que aparezcan los números al cargar página
+    onInitialized: function(event) {
+        var dots = $('.header-carousel .owl-dot');
+
+        dots.each(function(index) {
+            $(this).html('<span>' + (index + 1) + '</span>');
+        });
+    },
+
+    onChanged: function(event) {
+        var dots = $('.header-carousel .owl-dot');
+
+        dots.each(function(index) {
+            $(this).html('<span>' + (index + 1) + '</span>');
+        });
+    }
+}); 
+
 
 
     // Testimonials carousel

@@ -182,7 +182,37 @@
 .header-carousel .carousel-img {
     position: relative;
 }
+/* DOTS DEL SLIDER */
+.header-carousel .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
 
+.header-carousel .owl-dot {
+    margin: 5px;
+    display: inline-block;
+}
+
+.header-carousel .owl-dot.active span {
+    background: var(--institucion-secondary);
+    transform: scale(1.2);
+}
+/* NÚMERO DENTRO */
+.header-carousel .owl-dot span {
+    width: 30px;
+    height: 30px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/*
 .header-carousel .owl-nav {
     position: absolute;
     top: 50%;
@@ -190,7 +220,7 @@
     transform: translateY(-50%);
 }
 
-/* TODO: COLOR DE LOS BOTONES DE NAVEGACIÓN SLIDER -> background: var(--bs-primary);*/
+ TODO: COLOR DE LOS BOTONES DE NAVEGACIÓN SLIDER -> background: var(--bs-primary);
 .header-carousel .owl-nav .owl-prev,
 .header-carousel .owl-nav .owl-next {
     width: 45px;
@@ -202,7 +232,7 @@
     font-size: 22px;
     color: var(--bs-dark);
     background: var(--bs-primary);
-}
+} */
 
 .page-header {
     background: url(../img/bg.jpg) center center no-repeat;
